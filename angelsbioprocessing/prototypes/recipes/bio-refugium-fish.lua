@@ -28,15 +28,15 @@ data:extend(
       enabled = "false",
       energy_required = 30,
       ingredients = {
-        {type = "item", name = "raw-fish", amount = 4},
-        {type = "fluid", name = "liquid-nutrient-pulp", amount = 20},
-        {type = "fluid", name = "liquid-fish-atmosphere", amount = 20}
+        {type = "item", name = "raw-fish", amount = 20},
+        {type = "fluid", name = "liquid-nutrient-pulp", amount = 100},
+        {type = "fluid", name = "liquid-fish-atmosphere", amount = 100}
       },
       results = {
-        {type = "item", name = "raw-fish", amount = 2},
-        {type = "item", name = "raw-fish", amount = 1, probability = 0.75, show_details_in_recipe_tooltip = false},
-        {type = "item", name = "raw-fish", amount = 1, probability = 0.50, show_details_in_recipe_tooltip = false},
-        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 20}
+        {type = "item", name = "raw-fish", amount = 10},
+        {type = "item", name = "raw-fish", amount = 5, probability = 0.75, show_details_in_recipe_tooltip = false},
+        {type = "item", name = "raw-fish", amount = 5, probability = 0.50, show_details_in_recipe_tooltip = false},
+        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100}
       },
       icon = "__base__/graphics/icons/fish.png",
       icon_size = 64,
@@ -50,20 +50,20 @@ data:extend(
       enabled = "false",
       energy_required = 30,
       ingredients = {
-        {type = "item", name = "alien-fish-1-raw", amount = 4},
-        {type = "fluid", name = "liquid-nutrient-pulp", amount = 20},
-        {type = "fluid", name = "liquid-fish-atmosphere", amount = 20}
+        {type = "item", name = "alien-fish-1-raw", amount = 20},
+        {type = "fluid", name = "liquid-nutrient-pulp", amount = 100},
+        {type = "fluid", name = "liquid-fish-atmosphere", amount = 100}
       },
       results = {
-        {type = "item", name = "alien-fish-1-raw", amount = 3},
+        {type = "item", name = "alien-fish-1-raw", amount = 15},
         {
           type = "item",
           name = "alien-fish-1-raw",
-          amount = 1,
+          amount = 5,
           probability = 0.85,
           show_details_in_recipe_tooltip = false
         },
-        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 20}
+        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100}
       },
       icon = "__angelsbioprocessing__/graphics/icons/alien-fish-1.png",
       icon_size = 32,
@@ -77,20 +77,20 @@ data:extend(
       enabled = "false",
       energy_required = 30,
       ingredients = {
-        {type = "item", name = "alien-fish-2-raw", amount = 4},
-        {type = "fluid", name = "liquid-nutrient-pulp", amount = 20},
-        {type = "fluid", name = "liquid-fish-atmosphere", amount = 20}
+        {type = "item", name = "alien-fish-2-raw", amount = 20},
+        {type = "fluid", name = "liquid-nutrient-pulp", amount = 100},
+        {type = "fluid", name = "liquid-fish-atmosphere", amount = 100}
       },
       results = {
-        {type = "item", name = "alien-fish-2-raw", amount = 3},
+        {type = "item", name = "alien-fish-2-raw", amount = 15},
         {
           type = "item",
           name = "alien-fish-2-raw",
-          amount = 1,
+          amount = 5,
           probability = 0.85,
           show_details_in_recipe_tooltip = false
         },
-        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 20}
+        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100}
       },
       icon = "__angelsbioprocessing__/graphics/icons/alien-fish-2.png",
       icon_size = 32,
@@ -104,20 +104,20 @@ data:extend(
       enabled = "false",
       energy_required = 30,
       ingredients = {
-        {type = "item", name = "alien-fish-3-raw", amount = 4},
-        {type = "fluid", name = "liquid-nutrient-pulp", amount = 20},
-        {type = "fluid", name = "liquid-fish-atmosphere", amount = 20}
+        {type = "item", name = "alien-fish-3-raw", amount = 20},
+        {type = "fluid", name = "liquid-nutrient-pulp", amount = 100},
+        {type = "fluid", name = "liquid-fish-atmosphere", amount = 100}
       },
       results = {
-        {type = "item", name = "alien-fish-3-raw", amount = 3},
+        {type = "item", name = "alien-fish-3-raw", amount = 15},
         {
           type = "item",
           name = "alien-fish-3-raw",
-          amount = 1,
+          amount = 5,
           probability = 0.85,
           show_details_in_recipe_tooltip = false
         },
-        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 20}
+        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100}
       },
       icon = "__angelsbioprocessing__/graphics/icons/alien-fish-3.png",
       icon_size = 32,
@@ -132,14 +132,14 @@ data:extend(
       enabled = "false",
       energy_required = 60,
       ingredients = {
-        {type = "item", name = "raw-fish", amount = 2},
-        {type = "fluid", name = "liquid-nutrient-pulp", amount = 20},
-        {type = "fluid", name = "liquid-fish-atmosphere", amount = 20}
+        {type = "item", name = "raw-fish", amount = 10},
+        {type = "fluid", name = "liquid-nutrient-pulp", amount = 100},
+        {type = "fluid", name = "liquid-fish-atmosphere", amount = 100}
       },
       results = {
-        {type = "item", name = "raw-fish", amount_min = 2, amount_max = 4},
-        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 20}
-        --{type="fluid", name="water-yellow-waste", amount=20},
+        {type = "item", name = "raw-fish", amount_min = 10, amount_max = 20},
+        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100}
+        --{type="fluid", name="water-yellow-waste", amount=100},
       },
       icons = {
         {
@@ -162,14 +162,14 @@ data:extend(
       enabled = "false",
       energy_required = 60,
       ingredients = {
-        {type = "item", name = "algae-brown", amount = 2},
-        {type = "item", name = "alien-fish-1-raw", amount = 2},
-        {type = "fluid", name = "liquid-nutrient-pulp", amount = 20},
-        {type = "fluid", name = "liquid-fish-atmosphere", amount = 20}
+        {type = "item", name = "algae-brown", amount = 10},
+        {type = "item", name = "alien-fish-1-raw", amount = 10},
+        {type = "fluid", name = "liquid-nutrient-pulp", amount = 100},
+        {type = "fluid", name = "liquid-fish-atmosphere", amount = 100}
       },
       results = {
-        {type = "item", name = "alien-fish-1-raw", amount_min = 5, amount_max = 10},
-        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 20}
+        {type = "item", name = "alien-fish-1-raw", amount_min = 25, amount_max = 50},
+        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100}
       },
       icons = {
         {
@@ -190,14 +190,14 @@ data:extend(
       enabled = "false",
       energy_required = 60,
       ingredients = {
-        {type = "item", name = "algae-green", amount = 2},
-        {type = "item", name = "alien-fish-2-raw", amount = 2},
-        {type = "fluid", name = "liquid-nutrient-pulp", amount = 20},
-        {type = "fluid", name = "liquid-fish-atmosphere", amount = 20}
+        {type = "item", name = "algae-green", amount = 10},
+        {type = "item", name = "alien-fish-2-raw", amount =10},
+        {type = "fluid", name = "liquid-nutrient-pulp", amount = 100},
+        {type = "fluid", name = "liquid-fish-atmosphere", amount = 100}
       },
       results = {
-        {type = "item", name = "alien-fish-2-raw", amount_min = 5, amount_max = 10},
-        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 20}
+        {type = "item", name = "alien-fish-2-raw", amount_min = 25, amount_max = 50},
+        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100}
       },
       icons = {
         {
@@ -218,14 +218,14 @@ data:extend(
       enabled = "false",
       energy_required = 60,
       ingredients = {
-        {type = "item", name = "bio-raw-meat", amount = 2},
-        {type = "item", name = "alien-fish-3-raw", amount = 2},
-        {type = "fluid", name = "liquid-nutrient-pulp", amount = 20},
-        {type = "fluid", name = "liquid-fish-atmosphere", amount = 20}
+        {type = "item", name = "bio-raw-meat", amount = 10},
+        {type = "item", name = "alien-fish-3-raw", amount = 10},
+        {type = "fluid", name = "liquid-nutrient-pulp", amount = 100},
+        {type = "fluid", name = "liquid-fish-atmosphere", amount = 100}
       },
       results = {
-        {type = "item", name = "alien-fish-3-raw", amount_min = 5, amount_max = 10},
-        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 20}
+        {type = "item", name = "alien-fish-3-raw", amount_min = 25, amount_max = 50},
+        {type = "fluid", name = "liquid-polluted-fish-atmosphere", amount = 100}
       },
       icons = {
         {
